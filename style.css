@@ -1,0 +1,224 @@
+body {
+    font-family: "Outfit", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(ellipse, #cd0059, #ffa0a0);
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header {
+    padding: 2% 0;
+    color: #ffffff;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    margin-left: 1%;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 5%;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1%;
+}
+
+#menu {
+    margin-left: 10.5%;
+    padding-right: 2%;
+    padding-left: 2%;
+    border-radius: 10px;
+    width: 75%;
+    box-shadow: 0 0 5% rgba(255, 255, 255, 0.1);
+}
+
+.profile {
+    display: flex;
+    margin: 2% auto;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 5% rgba(255, 255, 255, 0.1);
+    width: 75%;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-column {
+    flex: 2;
+    margin-left: 5%;
+  
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 55%;
+    height: auto;
+    margin: 0;
+    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin-top: 5%;
+    width: 80%;
+}
+
+.contact-info li {
+    margin-bottom: 5%;
+}
+
+.projects {
+    width: 75%;
+    margin: auto;
+}
+
+.CV {
+    width: 100%;
+    text-align: justify;
+    /* margin-left: 2%; */
+}
+
+.item-cv {
+    margin-top: 1%;
+    width: 50%;
+    padding: 15px;
+    border-radius: 10px;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); */
+    text-align: justify;
+    display: flex;
+}
+
+.point{
+    height: 400px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#cv-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-cv:nth-child(odd) {
+    align-self: flex-start;
+    text-align: justify;
+    max-width: 42%;
+}
+
+.item-cv:nth-child(even) {
+    align-self: flex-end;
+    text-align: justify;
+    max-width: 42%; 
+}
+
+#my-cv-button{
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+
+    /* background-color: #000000; */
+    /* box-shadow: 5px 5px 8px rgba(0, 1, 1, 0.3); */
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+    height: 7%;
+    padding-top: 0%;
+   border: 2px solid rgb(255, 156, 156);
+
+}
+
+#my-cv-button2{
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+
+    /* background-color: #000000; */
+    /* box-shadow: 5px 5px 8px rgba(0, 1, 1, 0.3); */
+    /* margin-left: 25%; */
+    margin-right: 25%;
+    /* margin-top: 10%; */
+    height: 5%;
+    /* padding-top: 2%; */
+   /* border: 2px solid rgb(255, 156, 156); */
+
+}
+
+#my-cv-button:hover{
+    cursor: pointer;
+    border: 2px solid rgb(255, 208, 208);
+    /* box-shadow: 7px 7px 6px rgba(0, 1, 1, 0.3); */
+}
+
+#my-cv-button2:hover{
+    cursor: pointer;
+    color: rgb(255, 208, 208);
+    /* border: 2px solid rgb(255, 208, 208); */
+    /* box-shadow: 7px 7px 6px rgba(0, 1, 1, 0.3); */
+}
+
+
+/* #my-cv-button a{
+    color:rgb(255, 171, 208);
+} */
+
+.card {
+    background-color: rgba(206, 139, 139, 0.5);
+    border-radius: 10px;
+    padding: 2%;
+    width: 33%;
+    height: auto;
+    margin: 1%;
+    text-align: center;
+}
+
+.box-card img {
+    width: 70%;
+    height: 10%;
+    margin-bottom: 8%;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20%;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.box-button {
+    background-color: #4e0011;
+    width: 50%;
+    border-radius: 5px;
+}
